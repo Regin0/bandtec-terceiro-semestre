@@ -1,0 +1,84 @@
+O que é Estrutura de Dados?
+
+    - Estrutura de Dados consiste em uma organização de dados na memória para serem usados
+    de forma eficiente
+
+    - Vetores e listas são estruturas de dados
+
+===== EMENTA =====
+
+Caracterizão, análise e implementação de estruturas de dados básicas:
+
+    -Listas estáticas
+    -Pilhas
+    -Filas
+    -Árvores binárias
+
+Implementação de métodos de pesquisa e de ordenação
+
+Métodos de armazenamento e acesso a dados em arquivos
+
+
+===== EMENTA =====
+
+
+===== CONTEÚDO =====
+
+POO:
+    -Revisão de classes abstratas / métodos abstratos
+    -Polimorfismo
+    -Interfaces
+
+Ordenação:
+    -Selection Sort
+    -Bubble Sort
+    -Insertion Sort
+    -Quick Sort
+    -Merge Sort
+
+===== CONTEÚDO =====
+
+
+===== CLASSE ABSTRATA =====
+
+-Não pode ser instanciada (não pode criar um objeto a partir dessa classe)
+-Podemos herdar os atributos e métodos de uma classe abstrata
+-Podemos criar getters e setters em classes abstratas
+-Construtor não é método ein Regino e nunca é herdado
+
+
+Declarando uma classe abstrata
+
+        public abstratc class Regino {
+            //atributos
+            //métodos
+        }
+
+
+*****Podemos ter uma classe abstrata que herda de outra classe abstrata*****
+
+
+-Podemos definir métodos abstratos somente em classes abstratas, porém ele não tem o código
+na classe abstrata. Somente a assinatura do método.
+
+
+
+-Toda outra classe que herdar de uma classe abstrata terá que implementar seus métodos obrigatoriamente
+
+Exemplo:
+    calcSalario() *Calcula e devolve o salário do funcionário
+
+-Esse método depende de atributos das classes herdeiras, como por exemplo
+no caso do Vendedor, os atributos vendas e taxa
+
+-Portanto, nõa é possível calcular o salário de um Vendedor na classe abstrata funcionário.
+
+-Por isso esse método é declarado como abastrato em funcionário e implementado
+em todas as classes não abstratas que são herdeiras de funcionário.
+
+-Isso obriga que todas as classes criadas a partir de funcionário implemente esse
+método.
+
+        public abstratc double calcSalario();
+
+
