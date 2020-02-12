@@ -1,0 +1,11 @@
+UX - 5 Elementos:
+    Estratégia,
+    Ecopo,
+    Estrutura,              *Sempre de baixo para cima;
+    Esqueleto,
+    Superfície;
+
+#Quando eu reconheço eu economizo processamento do meu cérebro
+
+#Interface só é mudada quando envolve dinheiro
+
