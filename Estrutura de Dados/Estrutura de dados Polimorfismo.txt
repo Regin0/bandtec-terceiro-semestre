@@ -1,0 +1,27 @@
+========================================================================================
+
+Polimorfismo - Muitas formas
+
+Poli (varios(a))
+morfismo(formas)
+
+Método sobrecarregado - @Override
+Sobreescreve os métodos das classes pai
+
+========================================================================================
+
+Interface - Força as classes a implementarem os métodos definidos na Interface
+
+ - Não se relaciona com classes através de herança
+ - Contém APENAS métodos abstratos
+
+
+ EXEMPLO:
+
+    public interface NomeInterface {
+        //assinaturas dos métodos
+
+    }
+
+========================================================================================
+ 
