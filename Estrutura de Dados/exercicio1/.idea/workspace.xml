@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e108fb1d-10e9-4243-bf98-5ff2d8a64a5a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XldHrDGvzwc7VQNH8ch5cEDnEm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="exercicio1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e108fb1d-10e9-4243-bf98-5ff2d8a64a5a" name="Default Changelist" comment="" />
+      <created>1581624529044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581624529044</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="58" width="848" height="677" key="#Project_Structure" timestamp="1581624546041">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="58" width="848" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1581624546041" />
+    <state x="439" y="27" width="554" height="741" key="#com.intellij.ide.util.MemberChooser" timestamp="1581627630767">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="439" y="27" width="554" height="741" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1581627630767" />
+    <state x="494" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581637290175">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="494" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1581637290175" />
+    <state x="82" y="27" width="1274" height="741" key="SettingsEditor" timestamp="1581624807332">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="82" y="27" width="1274" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1581624807332" />
+    <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1581637293466">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="1289" height="741" key="new project wizard/67.27.1299.741@67.27.1299.741" timestamp="1581637293466" />
+    <state x="379" y="89" key="search.everywhere.popup" timestamp="1581624600989">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1581624600989" />
+  </component>
+</project>
