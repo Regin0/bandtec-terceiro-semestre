@@ -1,0 +1,22 @@
+Array = grupo de variáveis contendo o mesmo tipo
+
+Arrays são objetos ou tipos primitivos (int, char, double, float)
+
+Índice do vetor sempre começa com 0, para pegar o último índice é o tamanho do vetor -1
+
+índices devem ser inteiros e não negativos (até pq n existe)
+
+Para ver o tamanho do vetor usamos o  ~ length ~
+
+===========================================================================================
+
+Objetos Array:
+    Criamos através a palavra " New " 
+
+    ex: int [] c = new int [12] -> tamanho do vetor ;
+
+===========================================================================================
+
+
+
+
