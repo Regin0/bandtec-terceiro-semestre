@@ -4,10 +4,6 @@
     <list default="true" id="fe4f073f-68b8-4fc6-8d2e-09db54b51519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/bandtec/projeto01/ContaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/bandtec/projeto01/ContaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/bandtec/projeto01/ElevadorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/bandtec/projeto01/ElevadorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/bandtec/projeto01/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/bandtec/projeto01/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/bandtec/projeto01/SayajinController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/bandtec/projeto01/SayajinController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../projeto02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -100,6 +96,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1582322031354" />
+    <state x="811" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582730068053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="811" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582730068053" />
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582325783137">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -128,5 +128,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1582325501803" />
+    <state x="776" y="302" key="chooseDestDirectoryDialog" timestamp="1582730285347">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="302" key="chooseDestDirectoryDialog/1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582730285347" />
   </component>
 </project>
