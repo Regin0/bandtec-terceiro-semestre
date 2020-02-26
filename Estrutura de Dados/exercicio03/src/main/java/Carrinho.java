@@ -22,6 +22,6 @@ public class Carrinho {
         for(Vendavel ve: listaCar){
             System.out.println(ve);
         }
-    };
+    }
 }
 
