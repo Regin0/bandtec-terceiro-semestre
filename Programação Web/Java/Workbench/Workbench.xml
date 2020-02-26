@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<RefData version="1.0" exporter="EA.25">
+	<DataSet name="Package Build Scripts" table="t_script" filter="ScriptName='#ScriptName#' and ScriptAuthor='#ScriptAuthor#'" stoplist=";ScriptID;">
+		<DataRow>
+			<Column name="ScriptID" value="23"/>
+			<Column name="ScriptCategory" value="EACompileScript"/>
+			<Column name="ScriptName" value="ClassLibrary"/>
+			<Column name="ScriptAuthor" value="{F7FD2095-DFD5-4fb5-AFC2-EEB14D279421}"/>
+			<Column name="Notes" value="&lt;?xml version=&quot;1.0&quot;?&gt;&#xA;&lt;DATA&gt;&lt;Capture value=&quot;true&quot;/&gt;&lt;InitialDir value=&quot;C:\Benchmark\Java\WBench1&quot;/&gt;&lt;OutputParser value=&quot;Java SDK&quot;/&gt;&lt;RunCommand value=&quot;MyClassLibrary.CJohn&quot;/&gt;&lt;TestRunCommand value=&quot;&quot;/&gt;&lt;TestOutputParser value=&quot;&quot;/&gt;&lt;TestCapture value=&quot;false&quot;/&gt;&lt;TestBuildFirst value=&quot;false&quot;/&gt;&lt;DeployCommand value=&quot;&quot;/&gt;&lt;Debugger value=&quot;Java&quot;/&gt;&lt;Vars value=&quot;jre=%JAVA%\jre,-Djava.class.path=&amp;quot;%classpath%;.;&amp;quot;&quot;/&gt;&lt;DebugClass value=&quot;MyClassLibrary.CPerson 1 2 3&quot;/&gt;&lt;ShowConsole value=&quot;false&quot;/&gt;&lt;Active value=&quot;true&quot;/&gt;&lt;SeqFilter value=&quot;&quot;/&gt;&lt;SeqOptionArguments value=&quot;false&quot;/&gt;&lt;SeqOptionFilter value=&quot;false&quot;/&gt;&lt;SeqOptionExternal value=&quot;false&quot;/&gt;&lt;SeqOptionStateDiagram value=&quot;false&quot;/&gt;&lt;ScriptVersion value=&quot;9.0&quot;/&gt;&lt;Attach value=&quot;false&quot;/&gt;&lt;SeqConstraint value=&quot;&quot;/&gt;&lt;Diagnostics value=&quot;false&quot;/&gt;&lt;Flags value=&quot;64&quot;/&gt;&lt;AutoStackThreshold value=&quot;&quot;/&gt;&lt;SeqOptionDynamic value=&quot;false&quot;/&gt;&lt;RunCmd value=&quot;MyClassLibrary.CJohn&quot;/&gt;&lt;RunArgs value=&quot;&quot;/&gt;&lt;BuildJobList value=&quot;&amp;lt;CSSVEAJobList/&amp;gt;&amp;#xA;&quot;/&gt;&lt;DebugCmd value=&quot;MyClassLibrary.CPerson&quot;/&gt;&lt;DebugArgs value=&quot;1 2 3&quot;/&gt;&lt;JVMPath value=&quot;&quot;/&gt;&lt;SymPaths value=&quot;&amp;quot;%classpath%;.;&amp;quot;&quot;/&gt;&lt;Runtime value=&quot;&quot;/&gt;&lt;DebugDir value=&quot;C:\Benchmark\Java\WBench1&quot;/&gt;&lt;Debug value=&quot;MyClassLibrary.CPerson 1 2 3&quot;/&gt;&lt;DebugDepends value=&quot;false&quot;/&gt;&lt;/DATA&gt;&#xA;"/>
+			<Column name="Script" value="&quot;%JAVA%\bin\javac.exe&quot; -g -verbose -cp &quot;%classpath%&quot; %r*.java"/>
+		</DataRow>
+	</DataSet>
+</RefData>
