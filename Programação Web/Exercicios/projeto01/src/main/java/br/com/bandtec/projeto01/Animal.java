@@ -16,7 +16,6 @@ public class Animal {
         return nome;
     }
 
-
     public String getEspecie() {
         return especie;
     }
@@ -24,5 +23,16 @@ public class Animal {
     public Integer getIdade() {
         return idade;
     }
+
+    public String getFaixaEtaria() {
+        if (idade < 2) {
+            return "Filhote";
+        } else if (idade < 10) {
+            return "Adulto";
+        } else {
+            return "Idoso";
+        }
+    }
+
 
 }
