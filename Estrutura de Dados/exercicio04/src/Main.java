@@ -11,7 +11,5 @@ public class Main {
         cb.exibeArray();
         cb.getValorBonus();
 
-        System.out.println(cb);
-
     }
 }
