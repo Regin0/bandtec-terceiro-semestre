@@ -25,3 +25,8 @@ Interface - Força as classes a implementarem os métodos definidos na Interface
 
 ========================================================================================
  
+
+- Losango branco -> Agregação é qnd a parte existe independente do todo existir
+
+- Losango preto -> Composição a parte não existe sem o todo
+
