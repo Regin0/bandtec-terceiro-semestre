@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed87796b-0856-4684-ab02-767d78fa972d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programação Web/Exercicios/untitled/src/Hello.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programação Web/Exercicios/untitled/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programação Web/Exercicios/projeto01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programação Web/Exercicios/projeto01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio04/out/production/exercicio04/Coordenador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio04/out/production/exercicio04/Coordenador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio04/out/production/exercicio04/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio04/out/production/exercicio04/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio04/out/production/exercicio04/Professor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio04/out/production/exercicio04/Professor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio04/src/Coordenador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio04/src/Coordenador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio04/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio04/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio04/src/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio04/src/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../respostas Exc4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../respostas Exc4.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Programação Web/Exercicios/projeto02" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="TestaCarrinho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -86,6 +89,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="811" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582735841030" />
+    <state x="681" y="218" key="FileChooserDialogImpl" timestamp="1582811429378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="218" key="FileChooserDialogImpl/1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582811429378" />
     <state width="1253" height="378" key="GridCell.Tab.0.bottom" timestamp="1582241788568">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -102,9 +109,17 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="378" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582241788568" />
+    <state x="463" y="0" key="SettingsEditor" timestamp="1582811268927">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="0" key="SettingsEditor/1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582811268927" />
     <state x="342" y="147" key="new project wizard" timestamp="1582735860304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="147" key="new project wizard/1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582735860304" />
+    <state x="615" y="370" width="739" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1582810893162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="615" y="370" width="739" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582810893162" />
   </component>
 </project>

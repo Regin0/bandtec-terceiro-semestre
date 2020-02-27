@@ -7,3 +7,7 @@ R: Interface pois força as classes a implementarem os métodos definidos na Int
 1.1 - É necessário ter 2 ArrayList ou apenas um?
 
 R: Apenas um.
+
+1.2 - O polimorfismo está presente nesse sistema? Justifique.
+
+R: Sim, pois tem métodos sobrecarregados e sobreescreve os métodos das classes pai.

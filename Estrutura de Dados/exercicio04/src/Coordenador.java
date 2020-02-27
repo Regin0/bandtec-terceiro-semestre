@@ -46,6 +46,6 @@ public class Coordenador implements Bonus {
 
     @Override
     public double getValorBonus() {
-        return coordenacaoPorSemana * valorCoord;
+        return coordenacaoPorSemana * valorCoord * 4.5 * 0.2;
     }
 }

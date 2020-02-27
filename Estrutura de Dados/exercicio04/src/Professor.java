@@ -46,6 +46,6 @@ public class Professor implements Bonus {
 
     @Override
     public double getValorBonus() {
-        return aulaPorSemana * valorHoraAula;
+        return aulaPorSemana * valorHoraAula * 4.5 * 0.15;
     }
 }
