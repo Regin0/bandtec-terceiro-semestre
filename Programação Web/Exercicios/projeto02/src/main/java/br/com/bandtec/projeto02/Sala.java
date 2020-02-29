@@ -14,6 +14,14 @@ public class Sala {
         return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCapacidade(Integer capacidade) {
+        this.capacidade = capacidade;
+    }
+
     public Integer getCapacidade() {
         return capacidade;
     }

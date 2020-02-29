@@ -37,9 +37,12 @@ public class SalaController {
         @PathVariable("nome") String nome,
         @PathVariable("capacidade") Integer capacidade)
     {
-        if (salaAtual != null) {
-            salaAtual = new Sala(nome, capacidade);
-        }
+       // if (salaAtual != null) {
+           // salaAtual = new Sala(nome, capacidade);
+        //}
+
+        salaAtual.setNome(nome);
+        salaAtual.setCapacidade(capacidade);
     }
 
 }

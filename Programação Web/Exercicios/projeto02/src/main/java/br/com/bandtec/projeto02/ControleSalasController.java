@@ -23,4 +23,28 @@ public class ControleSalasController {
     public List<Sala> getSalas() {
         return salas;
     }
+
+    @DeleteMapping("/excluir")
+    public void excluirSala(){
+        salas.clear();
+    }
+
+    @DeleteMapping("/excluir/{posicao}")
+    public void excluirPosicao(@PathVariable("posicao") int i){
+        salas.remove(i);
+    }
+
+    @PutMapping("/atualizar/{posicao}/{nome}/{capacidade}")
+    public void atualiza(@PathVariable("posicao") Integer pos,
+                         @PathVariable("nome") String name,
+                         @PathVariable("capacidade") Integer cap){
+
+        salas.get(pos).setNome(name);
+        salas.get(pos).setCapacidade(cap);
+
+//        Msm coisa do de cima porém com 1 linha
+//        salas.set(pos, new Sala(name, cap));
+
+    }
+
 }
