@@ -17,10 +17,10 @@ public class Desafio {
             System.out.println("Informa a turma dele: ");
             String turmaAluno = leitor.next();
 
-            if(turmaAluno.equals("t1")){
+            if(turmaAluno.equalsIgnoreCase("t1")){
                 alunosT1[contT1] = nomeAluno;
                 contT1++;
-            }else if(turmaAluno.equals("t2")){
+            }else if(turmaAluno.equalsIgnoreCase("t2")){
                 alunosT2[contT2] = nomeAluno;
                 contT2++;
             }else{
