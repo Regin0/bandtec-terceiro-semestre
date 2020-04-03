@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9c7b1ae-2d01-4eb7-b912-70fa2379650a" name="Default Changelist" comment="" />
+    <list default="true" id="b9c7b1ae-2d01-4eb7-b912-70fa2379650a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ListaEstatica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaEstaticaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio7.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1Yj4t3uu3bZKH9Kru2Tg5hdXOSq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,18 +43,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Application.Exercicio7">
-    <configuration name="Exercicio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio3" />
-      <module name="exercicios-vetores" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio4" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Regino\Documents\Faculdade\bandtec-terceiro-semestre\Estrutura de Dados\exercicios-vetores\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ListaEstaticaMain">
+    <configuration name="Desafio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafio" />
       <module name="exercicios-vetores" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,13 +82,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListaEstaticaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListaEstaticaMain" />
+      <module name="exercicios-vetores" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListaEstaticaMain" />
+        <item itemvalue="Application.Desafio" />
         <item itemvalue="Application.Exercicio7" />
         <item itemvalue="Application.Exercicio6" />
         <item itemvalue="Application.Exercicio5" />
-        <item itemvalue="Application.Exercicio4" />
-        <item itemvalue="Application.Exercicio3" />
       </list>
     </recent_temporary>
   </component>
@@ -89,30 +112,46 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1585863605514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585863605514" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1585864527272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585864527272" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585863539887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585863539887" />
-    <state width="1250" height="168" key="GridCell.Tab.0.bottom" timestamp="1583453110470">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1585873191030">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585873191030" />
     <state width="1250" height="168" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1583453110470" />
-    <state width="1250" height="168" key="GridCell.Tab.0.center" timestamp="1583453110469">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1585873191030">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585873191030" />
     <state width="1250" height="168" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1583453110469" />
-    <state width="1250" height="168" key="GridCell.Tab.0.left" timestamp="1583453110469">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1585873191030">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585873191030" />
     <state width="1250" height="168" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1583453110469" />
-    <state width="1250" height="168" key="GridCell.Tab.0.right" timestamp="1583453110470">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1585873191030">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585873191030" />
     <state width="1250" height="168" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1583453110470" />
-    <state x="382" y="174" key="run.anything.popup" timestamp="1583443910768">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state x="462" y="206" key="run.anything.popup" timestamp="1585864521330">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="462" y="206" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585864521330" />
     <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1583443910768" />
   </component>
 </project>
