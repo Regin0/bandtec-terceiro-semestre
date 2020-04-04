@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9c7b1ae-2d01-4eb7-b912-70fa2379650a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ListaEstatica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListaEstaticaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios-vetores/Exercicio7.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +32,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Programação Web/corpo-requisicao" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -124,10 +114,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585864527272" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585863539887">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585946215058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585863539887" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585946215058" />
     <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1585873191030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
