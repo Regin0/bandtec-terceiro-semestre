@@ -32,7 +32,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Programação Web/corpo-requisicao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -138,6 +138,10 @@
     </state>
     <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585873191030" />
     <state width="1250" height="168" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1583453110470" />
+    <state x="342" y="140" key="new project wizard" timestamp="1586118591919">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586118591919" />
     <state x="462" y="206" key="run.anything.popup" timestamp="1585864521330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
