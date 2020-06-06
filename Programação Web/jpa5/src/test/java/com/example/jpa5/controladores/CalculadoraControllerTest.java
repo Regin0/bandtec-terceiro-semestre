@@ -3,6 +3,11 @@ package com.example.jpa5.controladores;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.ResponseEntity;
+import org.springframework.test.context.TestPropertySource;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.lang.reflect.Method;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -97,4 +102,31 @@ class CalculadoraControllerTest {
         assertEquals("Mano, sério?! Tudo errado!",resposta.getBody());
     }
 
+    @Test
+    void testarConfigs() throws NoSuchMethodException {
+        Class classe = CalculadoraController.class;
+
+        assertTrue(classe.isAnnotationPresent(RestController.class),
+                "A controller deve estar anotado com @Rescontroller");
+
+        Method somar = classe.getDeclaredMethod("somar", Double.class, Double.class);
+        assertTrue(somar.isAnnotationPresent(GetMapping.class),
+                "O método somar() deve estar anotado com @GetMapping");
+
+
+        String uriEsperada = "/somar/{n1}/{n2}";
+        assertEquals(somar.getDeclaredAnnotation(GetMapping.class).value()[0],
+                uriEsperada, "O endpoint em somar() deve ter a URI "+uriEsperada);
+
+        Method dividir = classe.getDeclaredMethod("dividir", Double.class, Double.class);
+        assertTrue(dividir.isAnnotationPresent(GetMapping.class),
+                "O método dividir() deve estar anotado com @GetMapping");
+
+
+        String uriEsperada2 = "/dividir/{n1}/{n2}";
+        assertEquals(dividir.getDeclaredAnnotation(GetMapping.class).value()[0],
+                uriEsperada2, "O endpoint em dividir() deve ter a URI "+uriEsperada2);
+
+    }
+    
 }
