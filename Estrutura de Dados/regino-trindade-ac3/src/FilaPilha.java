@@ -29,8 +29,7 @@ public class FilaPilha {
 
     public int pop() {
         if (!isPilhaEmpty()) {
-            return vetorCheio[pilha--];
-
+            return vetorCheio[pilha++];
         }
         return -1;
     }

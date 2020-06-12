@@ -1,13 +1,12 @@
 package br.com.bandtec.jpa1.controllers;
 
 import br.com.bandtec.jpa1.entidades.Cidade;
-import br.com.bandtec.jpa1.entidades.Esporte;
 import br.com.bandtec.jpa1.repositorios.CidadeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
+import java.util.List;
 
 @RestController
 @RequestMapping("/cidades")
@@ -22,12 +21,15 @@ public class CidadeController {
         return ResponseEntity.created(null).build();
     }
 
+
     @GetMapping
-    public ResponseEntity listarTodos() {
-        if (repository.count() > 0) {
-            return ResponseEntity.ok(this.repository.findAll());
-        } else {
+    public ResponseEntity getCidades() {
+        List<Cidade> lista = repository.findAll();
+
+        if (lista.isEmpty()) {
             return ResponseEntity.noContent().build();
+        } else {
+            return ResponseEntity.ok(lista);
         }
     }
 

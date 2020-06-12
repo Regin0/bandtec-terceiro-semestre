@@ -3,14 +3,18 @@ package br.com.bandtec.jpa6.controladores;
 import br.com.bandtec.jpa6.entidades.Aluno;
 import br.com.bandtec.jpa6.repositorios.AlunoRepository;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -19,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.*;
  Assim, podemos usar o @Autowired e anotações de Mocks, como a @MockBean.
  Usamos isso para criar testes DE INTEGRAÇÃO (ou "TESTES INTEGRADOS").
  */
-@SpringBootTest
+@SpringBootTest(classes = AlunoController.class)
 class AlunoControllerTest {
 
     @MockBean // esta anotação cria um Mock (doublê)
@@ -43,7 +47,7 @@ class AlunoControllerTest {
         Mockito.when(repository.findAll()).thenReturn(new ArrayList<>(doisAlunos));
         // new ArrayList<>(doisAlunos) -> aqui estamos 'clonando' a lista 'doisAlunos'
         // Mockito.when(repository.count()).thenReturn(50L);
-        // Mockito.when(repository.getOne(10)).thenReturn(new Aluno());
+        //Mockito.when(repository.getOne(10)).thenReturn(new Aluno());
         /*
         Dessa linha em diante, o repository.findAll() sempre retornará a lista 'doisAlunos'
          */
@@ -62,5 +66,62 @@ class AlunoControllerTest {
 
         assertEquals(204, resposta.getStatusCodeValue(), "Lista SEM valores deve retornar status 204");
         assertNull(resposta.getBody(), "Lista SEM valores deve retornar corpo vazio");
+    }
+
+    @Test
+    void getAluno() {
+        Aluno aluno = new Aluno();
+
+        aluno.setId(1);
+        aluno.setNome("Joao");
+
+        Mockito.when(repository.findById(1)).thenReturn(Optional.of(aluno));
+
+        ResponseEntity resposta = controller.getAluno(1);
+
+        assertEquals(200, resposta.getStatusCodeValue(), "A resposta de ve ser 200");
+        assertEquals(aluno, resposta.getBody(), "O aluno deve ser o que a repository retorna");
+
+        //c2
+        Mockito.when(repository.findById(1)).thenReturn(Optional.of(aluno));
+
+        resposta = controller.getAluno(2);
+
+        assertEquals(404, resposta.getStatusCodeValue(), "A resposta de ve ser 200");
+        assertNull(resposta.getBody(), "deve ser nulo");
+    }
+
+    @Test
+    void deletarAluno(){
+
+        //c1 id válido
+        Integer id = 99;
+        List<Aluno> lista = new ArrayList<>(Arrays.asList(new Aluno(),new Aluno(),new Aluno()));
+
+        Mockito.when(repository.findAll()).thenReturn(lista);
+        ResponseEntity respostaAntes = controller.getAlunos();
+        int alunosAntes = ((List) respostaAntes.getBody()).size();
+
+        Mockito.when(repository.existsById(id)).thenReturn(true);
+
+        Mockito.doAnswer(execucao -> lista.remove(0)).when(repository).deleteById(id);
+
+        ResponseEntity respostaDelete = controller.deletarAluno(id);
+
+        ResponseEntity respostaDepois = controller.getAlunos();
+
+        int alunosDepoisDelete = ((List) respostaDepois.getBody()).size();
+
+        //c2 id inválido
+
+        Mockito.when(repository.existsById(id)).thenReturn(false);
+
+        respostaDelete = controller.deletarAluno(id);
+
+        respostaDepois = controller.getAlunos();
+
+        int alunosDepoisSegundoDelete = ((List) respostaDepois.getBody()).size();
+        assertEquals(404, respostaDelete.getStatusCodeValue());
+        assertEquals(alunosDepoisDelete, alunosDepoisSegundoDelete);
     }
 }
